@@ -1,0 +1,101 @@
+a:hover,
+a:focus {
+  color: #b1d0b2;
+  text-decoration: underline;
+}
+a:visited { /* visited link */
+  color: #000000;
+}
+a:active { /* selected link */
+  color: #000000;
+}
+/*hyperlink colors */
+a {
+  color: #000000;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+/*viewport */
+img {
+  width: 100%;
+}
+/*color used
+Colors Used:
+Primary Color (White): #FFFFFF;
+Primary Color (Green): #B1D0B2;
+Secondary Color (Black): #000000;
+*/
+body {
+  background-color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 400; /* Sets the font weight to 400 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #000000;
+}
+/*typography used:
+  Page Titles (h1): 30px
+  Headers (h2): 25px
+  Image Descriptor (h3): 20px
+  Body Text  (h4): 16px
+*/
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 1.563em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+h4 {
+  font-size: .8em;
+  font-weight: 400;
+}
+/*font family*/
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.button.contact:hover {
+  background-color: #ffffff;
+  color: #b1d0b2;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #000000;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #b1d0b2;
+  color: #000000; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #b1d0b2; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
