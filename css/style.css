@@ -22,8 +22,9 @@ a:hover {
 img {
   width: 100%;
 }
-#recipebook h3{
-  color: #B1D0B2;
+
+* {
+  box-sizing: border-box;
 }
 
 /*color used
@@ -104,3 +105,37 @@ body {
   border-bottom: 2px solid #b1d0b2; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
+#recipebook h3{
+  color: #B1D0B2;
+}
+
+header {
+  background-color: #B1D0B2;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* properties from 1.7 */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+border-bottom: 3px solid #4a4a4a;
