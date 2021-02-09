@@ -138,4 +138,63 @@ header {
   max-width: 250px;
 }
 
+header {
+  background-color: #B1D0B2;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  -webkit-box-shadow: 4px 15px 19px 0px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    4px 15px 19px 0px rgba(50, 50, 50, 0.77);
+  box-shadow:         4px 15px 19px 0px rgba(50, 50, 50, 0.77);
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.8;
+  color: #000000;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+#hero {
+  background-color: #B1D0B2;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
 border-bottom: 3px solid #4a4a4a;
