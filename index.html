@@ -11,10 +11,12 @@
     <meta name="description" content="UI Design, UI designer, UX designer, Southern California.">
     <title>Kelly Hupp UI Designer | California</title>
   </head>
-  <body>
 
+  <body>
+    <!-- For the header -->
     <header>
-      <div class="center">
+    <!-- For the navigation -->
+      <div class="container">
         <picture>  <source srcset="img/homepage/logo.png" media="(max-width:767px)">
           <img class="logo" src="img/homepage/logo@2x.png" alt="Logo">
         </picture>
@@ -29,6 +31,7 @@
     </header>
 
     <main>
+      <!--For the hero section -->
       <div id="hero">
         <div class="container">
           <h1> Hi there, my name is Kelly!
@@ -37,18 +40,31 @@
         </div>
       </div>
 
+<!--For your projects -->
       <div id="work">
-        <div class="container">
+        <div class="center">
           <h2> My Work </h2>
-            <div class="row">
-              <div class="col-md-6">
-                <picture>  <source srcset="img/homepage/recipebook-cover.png" media="(max-width:767px)">
-                  <img src="img/homepage/recipebook-cover@2x.png" alt="recipe book">
-                </picture>
-          <h2> Recipe Book </h2>
-            <p> A responsive web app where chef enthusiests can connect to professional chefs for simple, easy to make recipes. </p>
-              <a href="recipebook.html" class="button">View Project</a>
         </div>
+      </div>
+      <div class="row">
+        <!--open row that holds (2) columns for project -->
+        <div class="col-md-6 col-lg-7">
+          <!--open first column (used for image) -->
+          <picture>
+            <source srcset="img/homepage/recipebook-cover.png" media="(max-width:767px)" />
+            <img src="img/homepage/recipebook-cover@2x.png" alt="recipe book" />
+          </picture>
+        </div>
+        <!--end first column -->
+        <!--open second column (used for text)-->
+          <div class="col-md-6 col-lg-5">
+            <h2> Recipe Book </h2>
+            <!--heading for the project -->
+              <p> A responsive web app where chef enthusiests can connect to professional chefs for simple, easy to make recipes. </p>
+                <a href="recipebook.html" class="button">View Project</a>
+                <!--button or link label-->
+        </div>
+        <!--end of second column-->
       </div>
     </main>
 

@@ -90,20 +90,21 @@ body {
   border: 2px solid #000000;
 }
 
-.button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
-}
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #b1d0b2;
   color: #000000; /* needed to override the default link color */
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #b1d0b2; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
 
 #recipebook h3{
@@ -202,6 +203,7 @@ border-bottom: 3px solid #4a4a4a;
 
 /* 1.8 */
 
+
 @media only screen and (min-width: 640px)  {
   header {
     text-align: unset;
@@ -221,9 +223,23 @@ border-bottom: 3px solid #4a4a4a;
   .col-md-6 {
   width: 50%;
 }
+
 }
 
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+  width: 60%;
+}
+  .col-lg-5 {
+  width: 40%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -231,7 +247,6 @@ border-bottom: 3px solid #4a4a4a;
 
 [class*="col-"] {
   float: left;
-  padding: 10px;
 }
 
   .row::after {
@@ -239,3 +254,31 @@ border-bottom: 3px solid #4a4a4a;
     clear: both;
     display: table;
   }
+
+  @keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
