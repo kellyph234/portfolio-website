@@ -99,7 +99,7 @@ body {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #b1d0b2; /* width of the border, type, color */
-  transition-duration: 0.2s opacity;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
@@ -199,8 +199,6 @@ nav > ul > li > a:active {
   text-align: right;
 }
 
-border-bottom: 3px solid #4a4a4a;
-
 /* 1.8 */
 
 
@@ -218,6 +216,10 @@ border-bottom: 3px solid #4a4a4a;
 
   #hero {
     display: block;
+  }
+
+  [class*="col-"] {
+    float: left;
   }
 
   .col-md-6 {
@@ -243,10 +245,6 @@ border-bottom: 3px solid #4a4a4a;
 }
 
 @media only screen and (min-width: 1440px) {
-}
-
-[class*="col-"] {
-  float: left;
 }
 
   .row::after {
