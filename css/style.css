@@ -136,7 +136,7 @@ header {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 header {
@@ -224,6 +224,10 @@ nav > ul > li > a:active {
 
   .col-md-6 {
   width: 50%;
+}
+
+.logo {
+  max-width: 250px;
 }
 
 }
