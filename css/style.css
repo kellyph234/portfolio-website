@@ -195,6 +195,28 @@ nav > ul > li > a:active {
   text-align: right;
 }
 
+/* 2.3 */
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
 /* 1.8 */
 
 
@@ -295,26 +317,4 @@ nav > ul {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-/* 2.3 */
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-.navtoggle.responsive li  {
-  display: block;
 }
