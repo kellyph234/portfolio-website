@@ -111,12 +111,6 @@ body {
   color: #B1D0B2;
 }
 
-header {
-  background-color: #B1D0B2;
-  padding: 10px;
-  margin: 10px;
-}
-
 /* properties from 1.7 */
 
 .container {
@@ -195,6 +189,18 @@ nav > ul > li > a:active {
   text-align: right;
 }
 
+/* image resize */
+
+.berlin-illustration {
+  display: inline-inline-block;
+  padding-right: 90;
+}
+
+.social-icons-container li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 /* 2.3 */
 
 .navtoggle li:not(:last-child) {
@@ -208,7 +214,7 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 10px;
   font-size: 20px;
   padding-right: 0;
 }
