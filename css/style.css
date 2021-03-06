@@ -192,13 +192,17 @@ nav > ul > li > a:active {
 /* image resize */
 
 .berlin-illustration {
-  display: inline-inline-block;
-  padding-right: 90;
+  width: 100%;
 }
 
 .social-icons-container li {
   list-style-type: none;
   display: inline-block;
+}
+
+.social-icons-container svg {
+  height: 100px;
+  width: 100px;
 }
 
 /* 2.3 */
