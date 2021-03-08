@@ -189,6 +189,31 @@ nav > ul > li > a:active {
   text-align: right;
 }
 
+/* 2.3 */
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.myfunction {
+  display: block;
+}
 /* image resize */
 
 .berlin-illustration {
@@ -205,27 +230,7 @@ nav > ul > li > a:active {
   width: 100px;
 }
 
-/* 2.3 */
 
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 10px;
-  font-size: 20px;
-  padding-right: 0;
-}
-
-.navtoggle.responsive li  {
-  display: block;
-}
 
 /* 1.8 */
 
