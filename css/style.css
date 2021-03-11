@@ -191,10 +191,6 @@ nav > ul > li > a:active {
 
 /* 2.3 */
 
-.navtoggle.responsive li  {
-  display: block;
-}
-
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -211,8 +207,12 @@ nav > ul > li > a:active {
   padding-right: 0;
 }
 
-.myfunction {
+.navtoggle.responsive li  {
   display: block;
+}
+
+.myfunction {
+  display: block
 }
 /* image resize */
 
