@@ -230,6 +230,10 @@ nav > ul > li > a:active {
   width: 100px;
 }
 
+.profile-picture img {
+  height: 500px;
+  width: 500px;
+}
 
 
 /* 1.8 */
