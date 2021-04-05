@@ -300,13 +300,22 @@ nav > ul {
   margin-right: auto;
 }
 
+.index-description {
+  padding-top: 250px;
+}
+
+.text-container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 }
 
 @media only screen and (min-width: 1440px) {
 }
 
 .text-container{
-  max-width: 1000px
+  max-width: 1000px;
   margin: 0 auto;
 }
 
