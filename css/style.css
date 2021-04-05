@@ -111,6 +111,7 @@ body {
   color: #B1D0B2;
 }
 
+
 /* properties from 1.7 */
 
 .container {
@@ -302,6 +303,11 @@ nav > ul {
 }
 
 @media only screen and (min-width: 1440px) {
+}
+
+.text-container{
+  max-width: 1000px
+  margin: 0 auto;
 }
 
   .row::after {
