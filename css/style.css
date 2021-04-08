@@ -131,7 +131,7 @@ body {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 header {
@@ -190,6 +190,10 @@ nav > ul > li > a:active {
   text-align: right;
 }
 
+.bullet-point-alignment {
+  list-style-position: inside;
+}
+
 /* 2.3 */
 
 .navtoggle li:not(:last-child) {
@@ -219,6 +223,10 @@ nav > ul > li > a:active {
 
 .berlin-illustration {
   width: 100%;
+}
+
+.social-icons-container ul {
+  padding-left: 0;
 }
 
 .social-icons-container li {
@@ -264,12 +272,11 @@ nav > ul > li > a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 100px;
 }
 
 nav > ul > li {
   display: inline-block;
-  list-style-position: inside;
 }
 
 .navtoggle li:not(:last-child) {
@@ -306,17 +313,27 @@ nav > ul {
 
 .text-container{
   max-width: 500px;
-  margin: 0 auto;
+  margin: 10 auto;
+}
+
+.image-container{
+  max width: 600;
 }
 
 }
 
 @media only screen and (min-width: 1440px) {
-}
+
 
 .text-container{
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.image-container {
+  max-width: 1500px;
+}
+
 }
 
   .row::after {
